@@ -1,8 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Site title`,
-    description: `Lorum ipsum SEO description`,
-    author: `svanheusden`,
+    title: 'Gatsby Default Starter',
++    menuLinks:[
++      {
++         name:'home',
++         link:'/'
++      },
++      {
++         name:'page2',
++         link:'/page-2'
++      }
++    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,21 +41,6 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
 
-module.exports = {
-  siteMetadata: {
-    title: 'Gatsby Default Starter',
-+    menuLinks:[
-+      {
-+         name:'home',
-+         link:'/'
-+      },
-+      {
-+         name:'page2',
-+         link:'/page-2'
-+      }
-+    ]
-  },
-  plugins: []
+  
 }
