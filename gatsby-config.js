@@ -34,3 +34,20 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+module.exports = {
+  siteMetadata: {
+    title: 'Gatsby Default Starter',
++    menuLinks:[
++      {
++         name:'home',
++         link:'/'
++      },
++      {
++         name:'page2',
++         link:'/page-2'
++      }
++    ]
+  },
+  plugins: []
+}
